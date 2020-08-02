@@ -1,7 +1,7 @@
 const http = require('http');
 
-const hostname = 'rmb-sct.heroku.com';
-const port = 80;
+var hostname = process.env['HOSTNAME'] || 'localhost';
+var port = process.env['PORT'] || 8011;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;

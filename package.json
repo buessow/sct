@@ -1,4 +1,19 @@
 {
   "name": "strava-component-tracker",
-  "version": "0.0.2"
+  "version": "0.0.2",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buessow/sct.git"
+  },
+  "author": "Robert Buessow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buessow/sct/issues"
+  },
+  "homepage": "https://github.com/buessow/sct#readme"
 }
